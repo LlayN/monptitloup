@@ -3,10 +3,10 @@
   {max-height: 1200px;
   }
   #imgFirst 
-  {content: url(./image/Traineauportrait.png);
+  {content: url(../resources/images/Traineauportrait.png);
   }
   #imgSecond
-  {content: url(./image/Chienportrait.png);
+  {content: url(../resources/images/Chienportrait.png);
   }
 
 }
