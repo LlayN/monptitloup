@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
@@ -16,11 +16,11 @@ body{
 /* NavBar */
 
     .customIcon {
-        background-image: url("favicon/burger-menu-svgrepo-com.svg");
+        background-image: url("../resources/svg/burger-menu-svgrepo-com.svg");
     }
 
     .customIcon:hover {
-        background-image: url("favicon/burger-menu-svgrepo-com-hover.svg");
+        background-image: url("../resources/svg/burger-menu-svgrepo-com-hover.svg");
     }
     .navbar-toggler{
         border: 2px solid #4ecca3;
@@ -161,7 +161,7 @@ body{
 /* Aside */
 
     .containerForm{
-        background-image: url(image/BgForm.png);
+        background-image: url(../resources/images/BgForm.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
