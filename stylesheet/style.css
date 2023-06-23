@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+  
+/* Parent */
+
+body{ 
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+/* NavBar */
+
+    .customIcon {
+        background-image: url("favicon/burger-menu-svgrepo-com.svg");
+    }
+
+    .customIcon:hover {
+        background-image: url("favicon/burger-menu-svgrepo-com-hover.svg");
+    }
+    .navbar-toggler{
+        border: 2px solid #4ecca3;
+    }
+    .navbar-toggler:hover {
+        border: 2px solid white
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+
+    .navMenu{
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .linkMenu{
+        color: white;
+    }
+
+    .linkMenu:hover{
+        color: #4ecca3;
+    }
+
+    .btnSkinNav{
+        background-color: #4ecca3;
+        border: 2px solid black;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+
+    .btnSkinNav:hover{
+        background-color: rgba(22, 22, 22, 0.747);
+        color: #4ecca3;
+        border: 2px solid #4ecca3;
+    }
+
+/* Carousel */
+
+    .titleSite{
+        text-shadow: 5px 5px 15px black;
+        font-family: 'Kalam', cursive;
+        color: rgb(223, 223, 223);
+        font-size: 40px;
+    }
+
+    .btnSkinCarou{
+        background-color: #4ecca3;
+        border: 2px solid black;
+        font-family: 'Poppins', sans-serif;
+        width: 230px;
+    }
+
+    .btnSkinCarou:hover{
+        background-color: #4ecca3;
+        border: 3px solid black;
+    }
+
+    .carouselItem1::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), #4ecca270);
+    }
+
+/* Card */
+
+    .titleCard{
+        font-family: 'Kalam', cursive;
+        color: rgba(0, 0, 0, 0.849);
+    }
+
+
+    .textVideoCard{
+        font-family: 'Poppins', sans-serif;
+        font-size: 23px;
+        font-weight: 500;
+        text-shadow: 4px 6px 11px black;
+    }
+
+    .boutonCard{
+        width: 250px;
+        background-color: rgba(255, 255, 255, 0.897);
+        border: 2px solid #4ecca3 ;
+        box-shadow: 1px 1px 10px rgb(44, 44, 44);
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600
+        
+    }
+
+    .boutonCard:hover{
+        background-color: rgba(255, 255, 255, 0.897);
+        border: 2px solid #000000 ;
+    }
+
+/* Carousel Dog */
+
+    .containerDog h3{
+       font-family: 'Permanent Marker', cursive;
+    }
+
+    .containerDog p{
+        font-family: 'Poppins', sans-serif;
+     }
+
+    .carouDog{
+        box-shadow: 2px 3px 13px rgb(197, 197, 197);
+        border: 5px solid #4ecca3;
+    }
+
+    .carouselItem2::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.178), #000000da);
+        z-index: 1;
+    }
+
+    .superpositionDiv{
+        z-index: 2;
+    }
+
+    .btnDogCarou{
+        background-color: #4ecca3;
+        width: 45%;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        box-shadow: 2px 2px 8px black;
+    }
+/* Aside */
+
+    .containerForm{
+        background-image: url(image/BgForm.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+/* Footer */
+
+    .containerFooter{
+        background-color: #4ecca3;
+        height: 110px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        font-style: italic;
+
+
+    }

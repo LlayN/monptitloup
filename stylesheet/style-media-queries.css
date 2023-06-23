@@ -1,0 +1,75 @@
+@media screen and (max-width: 767px){
+  #carouselResponsive 
+  {max-height: 1200px;
+  }
+  #imgFirst 
+  {content: url(./image/Traineauportrait.png);
+  }
+  #imgSecond
+  {content: url(./image/Chienportrait.png);
+  }
+
+}
+
+@media screen and (max-width: 319px){
+  #containerResponsive{
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 409px){
+  #colResponsive{
+    max-height: auto;
+  }
+}
+
+@media screen and (max-width: 767px){
+  #titleResponsive{
+    font-size: 35px;
+  }
+  #btnAppointment{
+    font-size: 15px;
+  }
+  #btnVolunteer{
+    font-size: 15px;
+  }
+  #textVideoCardId{
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 525px){
+  #textVideoCardId{
+    font-size: 18px;
+  }
+
+  #logoCardId{
+    width: 230px;
+
+
+  }
+}
+@media screen and (max-width: 400px){
+  #titleResponsive{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 778px){
+  #colResponsive{
+    max-width: 537px;
+  }
+}
+@media screen and (max-width: 778px){
+  #colResponsive{
+    max-width: 537px;
+  }
+}
+
+@media screen and (max-width: 319px){
+  body{
+    display: none;
+  }
+}
+
+
