@@ -9,3 +9,34 @@
     <link href="style-menu-toggler.css" rel="stylesheet" media="screen and (max-width: 992px)">
     <link href="style-media-queries.css" rel="stylesheet">
   </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark p-0">
+        <div class="container p-0" id="containerResponsive">
+          <a href="#" class="navbar-brand d-flex justify-content-start">
+            <img src="stylesheet/logo/Logo.png" width="220px" height="auto" class="fs-5 fw-semibold align-content-center mx-1" alt="Logo Mon P'tit Loup">
+          </a>
+          <button class="navbar-toggler m-2" type="button" data-bs-toggle="collapse" data-bs-target="#buttonToggler" aria-controls="buttonToggler" aria-expanded="false"
+          aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon customIcon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-md-center justify-content-lg-end" id="buttonToggler">
+            <ul class="navbar-nav align-items-center">
+              <li class="navMenu nav-item mx-3 my-1"><a href="#" class="linkMenu text-decoration-none ">Accueil</a></li>
+              <li class="navMenu nav-item mx-3 my-1"><a href="#" class="linkMenu text-decoration-none">Qui sommes-nous ?</a></li>
+              <li class="navMenu nav-item mx-3 my-1"><a href="#" class="linkMenu text-decoration-none">Contactez-nous</a></li>
+              <li class="navMenu nav-item mx-3 my-1">
+                <button class="btn btnSkinNav fw-bold position-relative my-1">
+                  Faire Un Don
+                  <span class="position-absolute top-0 start-100 translate-middle">
+                    <img src="resources/svg/heart-svgrepo-com.svg" width="26px">
+                  </span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
