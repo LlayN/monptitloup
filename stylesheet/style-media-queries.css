@@ -79,7 +79,7 @@
 }
 
 @media screen and (max-width: 450px){
-  #titleCard{
+  #titleCard1, #titleCard2{
     font-size: 25px;
   }
 }
