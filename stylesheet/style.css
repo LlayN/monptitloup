@@ -1,7 +1,10 @@
-
+/* Page Index */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+/* Page WoofRun */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 
   @keyframes rotate-scale-up {
@@ -12,14 +15,19 @@
   }
   
   
-/* Parent */
+/* Index */
 
-body{ 
+html, body{ 
     margin: 0;
     padding: 0;
     width: 100%;
 
 }
+
+main{
+    min-height: 100vh;
+}
+
 
 /* NavBar */
 
@@ -115,8 +123,8 @@ body{
 
     .boutonCard{
         width: 250px;
-        background-color: rgba(255, 255, 255, 0.897);
-        border: 2px solid #000000 ;
+        background-color: rgba(20, 20, 20, 0.514);
+        border: 2px solid #4ecca3 ;
         box-shadow: 1px 1px 10px rgb(44, 44, 44);
         font-size: 15px;
         font-family: 'Poppins', sans-serif;
@@ -125,7 +133,7 @@ body{
     }
 
     .boutonCard:hover{
-        background-color: rgba(255, 255, 255, 0.897);
+        background-color: rgba(0, 0, 0, 0.781);
         border: 2px solid #4ecca3 ;
     }
 
@@ -175,6 +183,7 @@ body{
         font-weight: 600;
         box-shadow: 2px 2px 8px black;
     }
+
 /* Aside */
     .titleForm{
         font-size: 25px;
@@ -205,5 +214,59 @@ body{
         font-weight: 500;
         font-size: 15px;
         font-style: italic;
-
     }
+
+    .footerContainer{
+        height: 100px;
+        position: sticky;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+
+
+/* Page Event */
+
+        .bodyBackground{
+            background: url(../resources/images/benjamin-suter-CgoRzWX4CDg-unsplash.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    /* Main */
+        
+        .bgContainer{
+            background-color: #013e6a9d;
+            border-radius: 10px;
+            height: 600px;
+            width: 100%;
+        }
+
+        .formContainer{
+            height: 370px;
+        }
+
+        .titleTirage{
+            font-size: 35px;
+            color: rgb(255, 255, 255);
+            font-family: 'Righteous', cursive;
+            text-shadow: 0px 5px 8px rgb(90, 90, 90);
+        }
+
+        .formTirage{
+            width: 75%;
+            margin-bottom: 30px;
+        }
+
+        .textTirage{
+            color: white;
+            font-family: 'Righteous', cursive;
+            font-weight: 100;
+
+        }
+
+        .bloctextTirage{
+            height: 160px;
+
+        }

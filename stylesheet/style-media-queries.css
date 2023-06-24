@@ -83,3 +83,10 @@
     font-size: 25px;
   }
 }
+
+
+@media screen and (max-width: 400px){
+  #textTirage{
+    font-size: 14px;
+  }
+}
