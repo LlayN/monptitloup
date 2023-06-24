@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Mon P'tit Loup</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="../stylesheet/style.css" rel="stylesheet">
+    <link href="../stylesheet/style-menu-toggler.css" rel="stylesheet" media="screen and (max-width: 992px)">
+    <link href="../stylesheet/style-media-queries.css" rel="stylesheet">
+    
+  </head>
+  <body class="bodyBackground">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark p-0">
+        <div class="container-lg p-0" id="containerResponsive">
+          <a href="#" class="navbar-brand d-flex justify-content-start">
+            <img src="../stylesheet/logo/Logo.png" width= "220" class="fs-5 fw-semibold align-content-center mx-1" alt="Logo Mon P'tit Loup">
+          </a>
+          <button class="navbar-toggler m-2" type="button" data-bs-toggle="collapse" data-bs-target="#buttonToggler" aria-controls="buttonToggler" aria-expanded="false"
+          aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon customIcon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-md-center justify-content-lg-end" id="buttonToggler">
+            <ul class="navbar-nav align-items-center">
+              <li class="navMenu nav-item mx-3 my-1"><a href="#" class="linkMenu text-decoration-none ">Accueil</a></li>
+              <li class="navMenu nav-item mx-3 my-1"><a href="#" class="linkMenu text-decoration-none">Qui sommes-nous ?</a></li>
+              <li class="navMenu nav-item mx-3 my-1"><a href="#" class="linkMenu text-decoration-none">Contactez-nous</a></li>
+              <li class="navMenu nav-item mx-3 my-1">
+                <a href="../index.html">
+                  <button class="btn btnSkinNav fw-bold position-relative my-1">
+                    Retour
+                    <span>
+                      <img src="../resources/svg/back-square-svgrepo-com.svg" alt="Retour bouton" width="20">
+                    </span>
+                  </button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container-md d-flex align-items-center justify-content-center" style="height: 100vh;" >
+        <div class="row row-cols-1 justify-content-center " >
+          <div class="col-12 col-md-9 bgContainer text-uppercase d-flex justify-content-center d-flex flex-column" >
+            <div class="bloctextTirage text-center d-flex flex-column justify-content-center">
+              <h1 class="titleTirage m-0">
+                Tirage au sort
+              </h1>
+              <p class="textTirage" id="textTirage">
+                Participez au tirage au sort et tenter de gagner une balade de 1H30 !
+              </p>
+            </div>
+            <div class="formContainer d-flex flex-column align-items-center justify-content-center">
+              <div class="form-floating formTirage">
+                <input type="text" class="form-control" id="prenom" placeholder="Votre prénom (obligatoire)" required>
+                  <label for="prenom" class="form-label fw-semibold">Prénom</label>
+              </div>
+              <div class="form-floating formTirage">
+                <input type="text" class="form-control" id="nom" placeholder="Votre nom (obligatoire)" required>
+                  <label for="nom" class="form-label fw-semibold">Nom</label>
+              </div>
+              <div class="form-floating formTirage">
+                <input type="email" class="form-control" id="email" placeholder="Votre adresse email (obligatoire)" required>
+                  <label for="email" class="form-label fw-semibold">Email</label>
+              </div>
+
+              <div class="d-flex justify-content-center mt-5">
+                <button class="btn btn-success text-center btnDogCarou text-dark" type="submit" style="width: 200px;">Je participe !</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main> 
+  
+  <footer>
+    <div class="footerContainer container-fluid p-0 d-flex justify-content-center align-items-center containerFooter text-center">
+      <p>
+        Développé et réalisé par Hugo Yengo pour évaluation Studi.
+      </p>
+    </div>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
