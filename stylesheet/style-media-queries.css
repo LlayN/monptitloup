@@ -86,7 +86,7 @@
 
 
 @media screen and (max-width: 400px){
-  #textTirage{
+  #subtitleTirage, #subtitleCondition{
     font-size: 14px;
   }
 }

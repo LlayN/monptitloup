@@ -235,38 +235,64 @@ main{
         }
 
     /* Main */
-        
-        .bgContainer{
-            background-color: #013e6a9d;
-            border-radius: 10px;
-            height: 600px;
-            width: 100%;
-        }
+
+       
 
         .formContainer{
             height: 370px;
         }
 
-        .titleTirage{
+        .titleTirage, .titleCondition{
             font-size: 35px;
             color: rgb(255, 255, 255);
             font-family: 'Righteous', cursive;
             text-shadow: 0px 5px 8px rgb(90, 90, 90);
         }
 
-        .formTirage{
-            width: 75%;
-            margin-bottom: 30px;
+        .titleTirage::after{
+            content: url(../resources/svg/party-popper-svgrepo-com.svg)       
+        
+        }        
+        .containerTirage, .containerCondition{
+            height: 100%;
+            margin-top: 100px;
         }
 
-        .textTirage{
+        .containerCondition{
+            margin-bottom: 100px;
+        }
+
+        .formTirage{
+            width: 100%;
+            margin-bottom: 50px;
+        }
+
+        .subtitleTirage, .subtitleCondition{
+            font-size: 17px;
             color: white;
             font-family: 'Righteous', cursive;
             font-weight: 100;
-
         }
 
-        .bloctextTirage{
-            height: 160px;
+        .textCondition{
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .textCondition p{
+            margin-bottom: 40px;
+        }
+
+
+        .blocTirage{
+            margin-top: 65px;
+        }
+
+        .bgcolorCondition{
+            background-color: #013e6a9d;
+            border-radius: 10px;
+
 
         }
